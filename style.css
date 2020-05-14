@@ -1216,6 +1216,17 @@ textarea:focus {
   justify-content: center;
 }
 
+@media screen and (max-width: 1300px) {
+  .container-passions,
+  .titre-passions {
+    padding-left: 0px;
+  }
+  .item-passion {
+    width: 320px;
+    height: 220px;
+  }
+}
+
 /* Footer */
 
 footer {
